@@ -1,0 +1,19 @@
+{
+    "description": "Demo using Social with the Twitter API",
+    "require": {
+        "php": ">=5.4.0",
+        "jasny/iso": "dev-master",
+        "social/social": "dev-master as 1.0",
+        "social/twitter": "dev-master as 1.0"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "http://github.com/jasny-social/social"
+        },
+        {
+            "type": "vcs",
+            "url": "http://github.com/jasny-social/social-twitter"
+        }
+    ]
+}

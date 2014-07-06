@@ -1,0 +1,129 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "e40fff7889c9e5372b5ae37e0e6dec0f",
+    "packages": [
+        {
+            "name": "jasny/iso",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jasny/iso.git",
+                "reference": "bafa44d82675647459ad801c3ec7181abdb2dc80"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jasny/iso/zipball/bafa44d82675647459ad801c3ec7181abdb2dc80",
+                "reference": "bafa44d82675647459ad801c3ec7181abdb2dc80",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Jasny\\ISO": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "time": "2014-04-13 18:55:15"
+        },
+        {
+            "name": "social/social",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jasny-social/social.git",
+                "reference": "01bc07e72f75922ce0bbbcfe490c6e3d6a323405"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jasny-social/social/zipball/01bc07e72f75922ce0bbbcfe490c6e3d6a323405",
+                "reference": "01bc07e72f75922ce0bbbcfe490c6e3d6a323405",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "jasny/iso": "dev-master",
+                "php": ">=5.4.0"
+            },
+            "replace": {
+                "jasny/social": "self.version"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Social": "src/"
+                }
+            },
+            "support": {
+                "source": "https://github.com/jasny-social/social/tree/master",
+                "issues": "https://github.com/jasny-social/social/issues"
+            },
+            "time": "2014-07-06 20:56:20"
+        },
+        {
+            "name": "social/twitter",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jasny-social/social-twitter.git",
+                "reference": "a834646d81b3509e0ff26f7213578a56d60c18d4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jasny-social/social-twitter/zipball/a834646d81b3509e0ff26f7213578a56d60c18d4",
+                "reference": "a834646d81b3509e0ff26f7213578a56d60c18d4",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0",
+                "social/social": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Social\\Twitter": "src/"
+                }
+            },
+            "support": {
+                "source": "https://github.com/jasny-social/social-twitter/tree/master",
+                "issues": "https://github.com/jasny-social/social-twitter/issues"
+            },
+            "time": "2014-07-06 21:41:42"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+        {
+            "alias": "1.0",
+            "alias_normalized": "1.0.0.0",
+            "version": "9999999-dev",
+            "package": "social/social"
+        },
+        {
+            "alias": "1.0",
+            "alias_normalized": "1.0.0.0",
+            "version": "9999999-dev",
+            "package": "social/twitter"
+        }
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "jasny/iso": 20,
+        "social/social": 20,
+        "social/twitter": 20
+    },
+    "platform": {
+        "php": ">=5.4.0"
+    },
+    "platform-dev": [
+
+    ]
+}
